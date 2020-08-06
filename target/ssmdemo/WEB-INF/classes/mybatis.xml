@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 配置别名 -->
+    <typeAliases>
+        <!-- 指定包名，别名就是类名，第一个字母小写，例如 Items 别名就是items -->
+        <package name="abc.wuyan.model"/>
+    </typeAliases>
+    <!--    引入映射配置文件-->
+    <mappers>
+        <!-- 该包下所有的mapper接口都可以使用 -->
+        <package name="abc.wuyan.mapper"/>
+    </mappers>
+</configuration>
